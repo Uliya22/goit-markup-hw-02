@@ -1,3 +1,48 @@
 body {
 font-family: Roboto, sans-serif;
+background-color: white;
+color: #757575;
 }
+.list {
+    list-style: none;
+}
+.header-nav .link {
+    color: #212121;
+}
+.header-nav .link:hover,
+.header-nav .link:focus {
+color: #2196F3;
+}
+
+.header-contact .link {
+    color: #757575;
+}
+.header-contact .link:hover,
+.header-contact .link:focus {
+    color: #2196F3;
+}
+/* Hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.hero .link {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+/* Section */
+.section-title {
+    color: #212121;
+}
+/* цвет текста заголовков, ссылок #212121 */
+
+/* основной цвет текста #757575 */
+
+/* текст белый #FFFFFF */
+
+/* цвет ссылок в футере тел., почта #FFFFFF99 */
+
+/* цвет ссылок активных #2196F3 */
+
