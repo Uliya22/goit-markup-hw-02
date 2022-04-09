@@ -1,42 +1,4 @@
-body {
-font-family: Roboto, sans-serif;
-background-color: white;
-color: #757575;
-}
-.list {
-    list-style: none;
-}
-.header-nav .link {
-    color: #212121;
-}
-.header-nav .link:hover,
-.header-nav .link:focus {
-color: #2196F3;
-}
-
-.header-contact .link {
-    color: #757575;
-}
-.header-contact .link:hover,
-.header-contact .link:focus {
-    color: #2196F3;
-}
-/* Hero */
-.hero {
-    background-color: #2F303A;
-}
-.hero-title {
-    color: #FFFFFF;
-}
-.hero .link {
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
-/* Section */
-.section-title {
-    color: #212121;
-}
-/* цвет текста заголовков, ссылок #212121 */
+/* цвет текста заголовков, ссылок #212121 */ 
 
 /* основной цвет текста #757575 */
 
@@ -45,4 +7,126 @@ color: #2196F3;
 /* цвет ссылок в футере тел., почта #FFFFFF99 */
 
 /* цвет ссылок активных #2196F3 */
+
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --light-text-color: #FFFFFF;
+    --primary-bg-color: #FFFFFF;
+    --dark-bg-color: #2F303A;
+    --buttom-bg-color: #F5F4FA;
+    
+}
+
+body {
+font-family: Roboto, sans-serif;
+background-color: var(--primary-bg-color);
+color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.visualy-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.logo {
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+}
+.header-logo {
+    color: #000000;
+}
+.footer-logo {
+    color: #FFFFFF;
+}
+
+/* Header */
+.header-nav .link {
+    color: var(--title-text-color);
+}
+.header-nav .link:hover,
+.header-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.header-contact .link {
+    color: var(--primary-text-color);
+}
+.header-contact .link:hover,
+.header-contact .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--dark-bg-color);
+}
+.hero-title {
+    color: var(--light-text-color);
+}
+
+.button {
+    color: var(--light-text-color);
+    background-color: var(--accent-color);
+}
+.button-secondary {
+    color: var(--title-text-color);
+    background-color: var(--buttom-bg-color);
+}
+.button-secondary:hover,
+.button-secondary:focus {
+    color: var(--light-text-color);
+    background-color: var(--accent-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+/* Feature */
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Footer */
+.footer-nav .link {
+    color: var(--light-text-color);
+}
+.footer-nav .link:hover,
+.footer-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.footer-contact .link {
+    color: #FFFFFF99;
+}
+.footer-contact .link:hover,
+.footer-contact .link:focus {
+    color: var(--accent-color)
+}
+.footer {
+    background-color: var(--dark-bg-color);
+}
 
