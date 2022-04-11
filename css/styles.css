@@ -104,7 +104,7 @@ body {
 }
 
 .button {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -117,7 +117,7 @@ body {
     cursor: pointer;
 }
 .button-secondary {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
