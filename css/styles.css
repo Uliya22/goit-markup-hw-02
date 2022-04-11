@@ -104,6 +104,7 @@ body {
 }
 
 .button {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -116,6 +117,7 @@ body {
     cursor: pointer;
 }
 .button-secondary {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -170,8 +172,10 @@ body {
     line-height: 1.88;
 }
 /* Footer */
-.footer-link {
+address {
     font-style: normal;
+}
+.footer-link {
     font-size: 14px;
     line-height: 1.71px;
     color: var(--light-text-color);
@@ -181,7 +185,6 @@ body {
     color: var(--accent-color);
 }
 .footer-contact {
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71px;
     color: rgba(255, 255, 255, 0.6);
